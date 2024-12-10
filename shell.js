@@ -175,10 +175,10 @@ Please respond directly to the user's message: "${userMessage}"
         console.error("Error parsing AI response:", e);
       }
     }
-    return "I'm sorry, I couldn't understand your request. Please try again.";
+    return "ممكن توضح حضرتك محتاج اي !";
   } catch (error) {
     console.error("Error fetching AI response:", error);
-    return "Oops! There’s a temporary issue. Please try again later.";
+    return "";
   }
 };
 
