@@ -1,0 +1,5 @@
+ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+
+ pkg shell5.js --targets win --output whatsapp-chat-bot.exe
